@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Archive</title>
+    <!-- Bootstrap CDN link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- Main Css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+
+    <main>
+
+        <section class="container-fluid">
+            <!-- Search Result part -->
+            <h1 class="text-center text-white my-4">Search your Book</h1>
+            <div class="input-group mb-3 w-50 mx-auto">
+                <input id="search-book" type="text" class="form-control" placeholder="Search Book"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button onclick="searchBooks()" class="btn btn-outline-danger text-white" type="button"
+                    id="button-search">SEARCH</button>
+            </div>
+
+            
+            <!-- Total Results of searching -->
+            <div id="total-results">
+
+            </div>
+
+            <!-- Display Result Books -->
+            <div id="display-books" class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Bootstrap Script link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <!-- Main Script Link -->
+    <script src="js/index.js"></script>
+</body>
+
+</html>
